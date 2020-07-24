@@ -1,2 +1,7 @@
-def hello():
-    pass
+from django.http import HttpResponse
+
+
+def hello(request):
+    return HttpResponse("aaa")
+
+
